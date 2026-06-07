@@ -59,15 +59,14 @@ export function ContactPage() {
     <div className="min-h-screen bg-background text-foreground">
       <Nav />
       <main>
-        <PageHeader eyebrow="Contact" title="Let's start a conversation.">
+        <PageHeader eyebrow="Contact" title="Contact Us">
           <motion.p
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.15 }}
             className="mt-5 max-w-xl text-base text-foreground/70 md:text-lg"
           >
-            Whether you're scoping a new initiative or looking to strengthen
-            existing programs — tell us where you are and where you want to go.
+            Contact Us
           </motion.p>
         </PageHeader>
 
@@ -85,15 +84,11 @@ export function ContactPage() {
                 Reach our team directly.
               </h2>
               <p className="mt-3 text-sm text-accent-foreground/75">
-                Or use the form — every inquiry lands in the partner inbox.
+                Or use the form, every inquiry lands in our inbox.
               </p>
 
               <div className="mt-8 space-y-5 text-sm">
-                <InfoRow Icon={Mail} label="Email" value="info@adwapartners.com" href="mailto:info@adwapartners.com" />
-                <InfoRow Icon={Phone} label="Phone" value="+251-979-09-9669" href="tel:+251979099669" />
-                <InfoRow Icon={MapPin} label="Office" value="Salam Tower, 11ᵗʰ floor. Yeka Sub-City, Addis Ababa" />
-              </div>
-
+...
               <div className="mt-10 rounded-2xl bg-background/10 p-5 ring-1 ring-accent-foreground/15">
                 <p className="text-xs uppercase tracking-[0.22em] text-accent-foreground/70">
                   Response time
@@ -143,7 +138,7 @@ export function ContactPage() {
                         type="text"
                         value={form.firstName}
                         onChange={(e) => update("firstName", e.target.value)}
-                        placeholder="Jane"
+                        placeholder="Samson"
                         className="field-input"
                       />
                     </Field>
@@ -152,7 +147,7 @@ export function ContactPage() {
                         type="text"
                         value={form.lastName}
                         onChange={(e) => update("lastName", e.target.value)}
-                        placeholder="Doe"
+                        placeholder="Ambaye"
                         className="field-input"
                       />
                     </Field>
