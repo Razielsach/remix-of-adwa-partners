@@ -88,7 +88,11 @@ export function ContactPage() {
               </p>
 
               <div className="mt-8 space-y-5 text-sm">
-...
+                <InfoRow Icon={Mail} label="Email" value="info@adwapartners.com" href="mailto:info@adwapartners.com" />
+                <InfoRow Icon={Phone} label="Phone" value="+251-979-09-9669" href="tel:+251979099669" />
+                <InfoRow Icon={MapPin} label="Office" value="Salam Tower, 11ᵗʰ floor. Yeka Sub-City, Addis Ababa" />
+              </div>
+
               <div className="mt-10 rounded-2xl bg-background/10 p-5 ring-1 ring-accent-foreground/15">
                 <p className="text-xs uppercase tracking-[0.22em] text-accent-foreground/70">
                   Response time
