@@ -2,7 +2,7 @@ const T = [
   {
     quote: "A strategic partner we can rely on.",
     body: "Working with Adwa Partners gave us a completely new perspective on our challenges. Their insights were clear, practical, and helped us make confident decisions about our future strategy.",
-    name: "David M.",
+    name: "Samuel B.",
     role: "Operations Director",
     avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=200&q=80",
   },
@@ -16,14 +16,14 @@ const T = [
   {
     quote: "Professional, insightful, and efficient.",
     body: "The team quickly understood our challenges and provided actionable recommendations that significantly improved our operational efficiency.",
-    name: "Michael C.",
+    name: "Mulugeta K.",
     role: "Head of Strategy",
     avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
   },
   {
     quote: "Insightful and results-driven collaboration.",
     body: "Their team brought clarity to several complex challenges we were facing. The recommendations were practical and easy for our team to implement.",
-    name: "Emily R.",
+    name: "Tirsit R.",
     role: "Head of Operations",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80",
   },
