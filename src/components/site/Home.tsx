@@ -1,5 +1,6 @@
 import { Nav } from "./Nav";
 import { Hero } from "./Hero";
+import { ScrollMorphHero } from "./ScrollMorphHero";
 import { Mission } from "./Mission";
 import { Services } from "./Services";
 import { WhyUs } from "./WhyUs";
@@ -16,6 +17,7 @@ export function Home() {
       <Nav />
       <main>
         <Hero />
+        <Reveal><ScrollMorphHero /></Reveal>
         <Reveal><Mission /></Reveal>
         <Reveal><Services /></Reveal>
         <Reveal><WhyUs /></Reveal>
@@ -28,4 +30,3 @@ export function Home() {
     </div>
   );
 }
-
