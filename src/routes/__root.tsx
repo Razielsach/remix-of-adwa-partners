@@ -83,8 +83,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:site", content: "@Lovable" },
       { name: "twitter:title", content: "Adwa Partners" },
       { name: "twitter:description", content: "Adwa Partners Consultancy delivers strategic advisory, transformation and training that drive measurable results for organizations across Ethiopia and beyond." },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/d92a8600-3122-4a6d-861a-285710f6b7d5" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/d92a8600-3122-4a6d-861a-285710f6b7d5" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/85RgYNwNmfY37lmAAt12hJhsKrn1/social-images/social-1780861348297-adwa_partners_logo.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/85RgYNwNmfY37lmAAt12hJhsKrn1/social-images/social-1780861348297-adwa_partners_logo.webp" },
     ],
     links: [
       {
